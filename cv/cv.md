@@ -18,3 +18,25 @@ I **quickly learn** new things and not imagine life without it. It makes me bett
 
 > Other :
 >  IntelijIDE, PHPshrom, VSCode Git bash, Linux bash
+
+## Code examples
+   
+    @Override
+    public void doSave(Resume resume, Object index) {
+        if (size >= STORAGE_LIMIT) {
+            throw new StorageException("Storage overflow ", resume.getUuid());
+        } else {
+            elementSave(resume, -((Integer) index) - 1);
+            size++;
+        }
+    }
+    
+## Expirience
+ 
+I have some expirience in ``Java``, ``MySQL``. I have used in work ``HTML5``, ``CSS3``, ``Git`` 
+ 
+## Education
+- College graduate: ``Technician-programmer`` & ``Semiconductor manufacturing operator``
+  
+## English level
+My English level is ``Pre-Intermediate``
