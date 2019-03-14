@@ -1,0 +1,197 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../assets/Montserrat-Regular.ttf");
+}
+html
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1024px;  
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+
+ul{
+    list-style: none;
+}
+
+input
+{
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+    /* color: white; */
+}
+
+header {
+    position: relative;
+    width: 20%;
+    max-height: 500px;
+    margin: auto 20px;
+}
+
+main {
+    display: grid;
+    grid-template: repeat(30, auto) / repeat(10, 1fr);
+
+    min-height: 800px;
+    justify-content: center;
+    margin: 0 auto 0 300px;
+    width: 80%;
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+/* temp */
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    grid-column: 1/11;
+    margin: 22px;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 20px;
+}
+
+/* teml */
+section {
+    grid-column: 1/11;  
+    margin: 30px 0;
+}
+
+section p {
+    padding: 5px 0;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+.section-skills {
+    grid-column: 5/11;
+}
+
+.section-profexperience {
+    grid-column: 4/11;
+}
+
+.section-english {
+    grid-column: 5/11;
+}
+
+p {
+    line-height: 1.7;
+}
+
+.photo {
+    grid-column: 6/11;
+    grid-row: 2/3;
+    position: relative;
+    overflow: hidden;
+    width: 245px;
+    height: 240px;
+    margin: 20px 0;
+    border-radius: 50%;
+}
+
+.photo img {
+    position: absolute;
+    right: -17px;
+}
+
+.section-contacts {
+    grid-column: 1/6;
+    grid-row: 2/3;
+}
+
+a:link {
+    color: #1d9c8e;
+}
+
+.section-contacts p {
+    color: #1d9c8e;
+}
+
+nav {
+    position: fixed;
+    top: 60px; 
+    left: 50px;   
+}
+
+nav li {
+    min-width: 172px;
+    padding: 10px 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+nav li:last-child {
+    border-bottom: none;
+}
+
+nav li a {
+ display: inline-block;
+ width: 170px;
+ line-height: 3;
+ text-align: center; 
+}
+
+li a:hover {
+    background-color: darkslategray;
+    color: papayawhip;
+}
+
+.email::before {
+    content: '';
+    background: src();
+}
+
+.phone::before {
+    content: '';
+    background: src();
+}
+
+.telegram::before {
+    content: '';
+    background: src();
+}
+
+.github a::before {
+    content: '';
+    background: src();
+}
+
+
+
