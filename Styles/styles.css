@@ -24,6 +24,12 @@ time, mark, audio, video {
     font-family: 'Montserrat';
     src: url("../assets/Montserrat-Regular.ttf");
 }
+
+@font-face {
+    font-family: "Fontello";
+    src: url(../assets/fontello.woff2);
+}
+
 html
 {
     margin: 0;
@@ -173,24 +179,26 @@ li a:hover {
     color: papayawhip;
 }
 
+.icon::before {
+    font-family: Fontello;
+    margin-right: 11px;
+    color: #1d9c8e;
+}
+
 .email::before {
-    content: '';
-    background: src();
+    content: '\f0e0';
 }
 
 .phone::before {
-    content: '';
-    background: src();
+    content: '\e800';
 }
 
 .telegram::before {
-    content: '';
-    background: src();
+    content: '\f2c6';
 }
 
-.github a::before {
-    content: '';
-    background: src();
+.github::before {
+    content: '\f300';
 }
 
 
