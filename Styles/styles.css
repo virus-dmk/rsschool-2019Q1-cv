@@ -56,7 +56,6 @@ input
 a
 {
     text-decoration: none;
-    /* color: white; */
 }
 
 header {
@@ -79,8 +78,6 @@ main {
     background-color: #f7f7f7;
 }
 
-/* temp */
-
 h1 {
     font-size: 2.5rem;
     text-align: center;
@@ -93,7 +90,6 @@ h2{
     margin: 20px;
 }
 
-/* teml */
 section {
     grid-column: 1/11;  
     margin: 30px 0;
